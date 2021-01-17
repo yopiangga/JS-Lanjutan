@@ -38,20 +38,20 @@
 
 // 3. Constructor Function
 
-function Mahasiwa(nama, energi){
-    this.nama = nama;
-    this.energi = energi;
+// function Mahasiwa(nama, energi){
+//     this.nama = nama;
+//     this.energi = energi;
     
-    this.makan = function (porsi){
-        this.energi += porsi;
-        console.log(`Selamat makan ${this.nama}`);
-    }
+//     this.makan = function (porsi){
+//         this.energi += porsi;
+//         console.log(`Selamat makan ${this.nama}`);
+//     }
 
-    this.main = function (jam){
-        this.energi -= jam;
-        console.log(`Selamat bermain ${this.nama}`);
-    }
-}
+//     this.main = function (jam){
+//         this.energi -= jam;
+//         console.log(`Selamat bermain ${this.nama}`);
+//     }
+// }
 
-let mahasiswa1 = new Mahasiwa("Alfian Prisma Yopiangga1", 10);
-let mahasiswa2 = new Mahasiwa("Alfian Prisma Yopiangga2", 20);
+// let mahasiswa1 = new Mahasiwa("Alfian Prisma Yopiangga1", 10);
+// let mahasiswa2 = new Mahasiwa("Alfian Prisma Yopiangga2", 20);
